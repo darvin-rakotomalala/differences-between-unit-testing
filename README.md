@@ -16,12 +16,12 @@ Les tests fonctionnels sont liés aux tests d'intégration, cependant, ils signi
 Et surtout, pour optimiser le retour sur investissement (ROI), votre base de code doit avoir autant de tests unitaires que possible, moins de tests d'intégration et le moins de tests fonctionnels.
 	
 Ceci est illustré le mieux dans la pyramide de test suivante:
-	
-<IMG>
+
+<img alt="Unit testing" src="https://github.com/darvin-rakotomalala/differences-between-unit-testing/blob/main/differences-between-unit-testing.png" />
 	
 Les tests unitaires sont plus faciles à écrire et plus rapides à exécuter. Le temps et les efforts nécessaires pour implémenter et maintenir les tests augmentent entre les tests unitaires et les tests fonctionnels, comme indiqué dans la pyramide ci-dessus.
 	
-Par exemple : Pour un téléphone mobile fonctionnel, les principales pièces requises sont la « batterie» et la «carte sim ».
+Par exemple : Pour un téléphone mobile fonctionnel, les principales pièces requises sont la « batterie » et la « carte sim ».
 - **Exemple de test unitaire** - La batterie est vérifiée pour sa durée de vie, sa capacité et d'autres paramètres. La carte SIM est vérifiée pour son activation.
 - **Exemple de test d'intégration** - La batterie et la carte SIM sont intégrées, c'est-à-dire assemblées pour démarrer le téléphone mobile.
 - **Exemple de test fonctionnel** - La fonctionnalité d'un téléphone mobile est vérifiée en termes de fonctionnalités et d'utilisation de la batterie ainsi que des fonctionnalités de la carte SIM.
